@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Road-Cleaner
+  m_Shader: {fileID: 4800000, guid: d6eb50c293d0edd44b5ad1f8e236e9af, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BlendText
+      second:
+        m_Texture: {fileID: 2800000, guid: a49da78487cdc3145b053e8a7c51cbe3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 1, y: 0.5}
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 2800000, guid: aed881658ac4aac49b136f1f7761df08, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Bumpmap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Cube
+      second:
+        m_Texture: {fileID: 8900000, guid: 4aeccc216aecf9e48b8d5cfaf31dfa74, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _CubeMask
+      second:
+        m_Texture: {fileID: 2800000, guid: fe67316a0e8729c49be1920a58461583, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Cubemap
+      second:
+        m_Texture: {fileID: 8900000, guid: 4aeccc216aecf9e48b8d5cfaf31dfa74, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Diffuse
+      second:
+        m_Texture: {fileID: 2800000, guid: fe67316a0e8729c49be1920a58461583, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: fe67316a0e8729c49be1920a58461583, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _NormalMap
+      second:
+        m_Texture: {fileID: 2800000, guid: aed881658ac4aac49b136f1f7761df08, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SpecMask
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _cubemap
+      second:
+        m_Texture: {fileID: 8900000, guid: 4aeccc216aecf9e48b8d5cfaf31dfa74, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _diffuse
+      second:
+        m_Texture: {fileID: 2800000, guid: fe67316a0e8729c49be1920a58461583, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Angle
+      second: 0
+    - first:
+        name: _Brightness
+      second: 0.7692308
+    - first:
+        name: _Contrast
+      second: 4.3846154
+    - first:
+        name: _Glossiness
+      second: 1
+    - first:
+        name: _HighlightPow
+      second: 255
+    - first:
+        name: _MaskBias
+      second: 2.8846154
+    - first:
+        name: _Power
+      second: 1.65
+    - first:
+        name: _Range2
+      second: 2.153846
+    - first:
+        name: _SP
+      second: 2.68
+    - first:
+        name: _Shininess
+      second: 0.4
+    - first:
+        name: _Specpower
+      second: 0.1
+    - first:
+        name: _Strength
+      second: 4.6
+    - first:
+        name: _Subtraction
+      second: 0.53846157
+    - first:
+        name: _Val1
+      second: 11.81
+    - first:
+        name: _Val2
+      second: 2
+    - first:
+        name: _VectorPower
+      second: 1.7307688
+    - first:
+        name: _exponent
+      second: 10
+    - first:
+        name: _g
+      second: 0.35074627
+    - first:
+        name: _range
+      second: 14.615385
+    - first:
+        name: _range1
+      second: 0.48507464
+    - first:
+        name: _range2
+      second: 3.5384614
+    - first:
+        name: _somerange
+      second: -5
+    - first:
+        name: _subtract
+      second: 1.05
+    m_Colors:
+    - first:
+        name: _Angle
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _Highlight
+      second: {r: 0, g: 2, b: 2, a: 0}
+    - first:
+        name: _HighlightCol
+      second: {r: 0.9477612, g: 0.8286604, b: 0.64362884, a: 1}
+    - first:
+        name: _ReflectColor
+      second: {r: 1, g: 1, b: 1, a: 0.5}
+    - first:
+        name: _SpecColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _SpecularColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _VectorAngle
+      second: {r: -8.85, g: 1.47, b: -2.2007, a: -0.01}
+    - first:
+        name: _angle
+      second: {r: 5.09, g: 0, b: 0, a: 0}
+    - first:
+        name: _specularcolor
+      second: {r: 1, g: 1, b: 1, a: 1}
