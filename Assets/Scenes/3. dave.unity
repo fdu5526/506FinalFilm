@@ -470,6 +470,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1000011680938534, guid: 529c7576cec3e1f48b997fd49c57c346, type: 2}
+      propertyPath: m_Name
+      value: Car
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 529c7576cec3e1f48b997fd49c57c346, type: 2}
   m_IsPrefabParent: 0
@@ -1803,6 +1807,10 @@ Prefab:
     - target: {fileID: 4000012006576050, guid: c18eb50ff186a9944ae84516b5411d96, type: 2}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013325451142, guid: c18eb50ff186a9944ae84516b5411d96, type: 2}
+      propertyPath: m_Name
+      value: Person
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c18eb50ff186a9944ae84516b5411d96, type: 2}
