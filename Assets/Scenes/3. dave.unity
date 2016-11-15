@@ -812,6 +812,7 @@ GameObject:
   - 4: {fileID: 717582930}
   - 95: {fileID: 717582931}
   - 114: {fileID: 717582932}
+  - 114: {fileID: 717582933}
   m_Layer: 0
   m_Name: SceneBridge
   m_TagString: Untagged
@@ -864,6 +865,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5ec2937143497e14d828d34f5a22100a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &717582933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 717582929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c26c90036089b44a56e9d920ad0a18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &784612402
@@ -1328,7 +1340,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 136.33, y: 32.6, z: -37.51}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 65.726006, y: -42.24, z: 0}
   m_Children: []
   m_Father: {fileID: 717582930}
   m_RootOrder: 1
@@ -1782,11 +1794,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012006576050, guid: c18eb50ff186a9944ae84516b5411d96, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -180
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: 4000012006576050, guid: c18eb50ff186a9944ae84516b5411d96, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -90
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c18eb50ff186a9944ae84516b5411d96, type: 2}
