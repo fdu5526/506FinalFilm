@@ -15,6 +15,9 @@ public class MCSAnimController : MonoBehaviour {
 
 	public void SetAnimatorState (AnimationState state) {
 		animator.Play(state.ToString("G"), 0, 0f);
+
+		transform.localPosition = Vector3.zero;
+		transform.localEulerAngles = Vector3.zero;
 	}
 	
 	// Update is called once per frame
