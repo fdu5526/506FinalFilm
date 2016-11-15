@@ -12,7 +12,7 @@ public class SceneMCSAnimController : MonoBehaviour {
 	}
 
 
-	public void SetAnimatorState (MCSAnimController.AnimationState state) {
+	public void SetPersonAnimatorState (MCSAnimController.AnimationState state) {
 		personController.SetAnimatorState(state);
 	}
 

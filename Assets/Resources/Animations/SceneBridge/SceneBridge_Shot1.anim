@@ -414,7 +414,7 @@ AnimationClip:
   m_GenerateMotionCurves: 0
   m_Events:
   - time: 0
-    functionName: SetAnimatorState
+    functionName: SetPersonAnimatorState
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
