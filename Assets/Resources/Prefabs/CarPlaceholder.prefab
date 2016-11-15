@@ -56,7 +56,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000011126600064}
   m_Layer: 0
-  m_Name: Car
+  m_Name: CarPlaceholder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
