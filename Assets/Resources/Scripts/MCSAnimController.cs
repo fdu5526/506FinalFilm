@@ -28,7 +28,7 @@ public class MCSAnimController : MonoBehaviour {
 		transform.localPosition = Vector3.zero;
 		transform.localEulerAngles = Vector3.zero;
 
-		offset.localPosition = offsetPositions[(int)state];
+		//offset.localPosition = offsetPositions[(int)state];
 	}
 	
 	// Update is called once per frame
