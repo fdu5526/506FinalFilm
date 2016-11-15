@@ -16,7 +16,7 @@ public class LevelManager : MonoBehaviour {
 		if (Input.GetKeyUp("r")) {
 			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 		} else if (Input.GetKeyUp("n")) {
-			animator.Play("SceneBridge_Shot12");
+			animator.Play("SceneBridge_Shot9");
 		}
 	}
 }
