@@ -29,8 +29,10 @@ public class QT_SkyBox : MonoBehaviour {
 				SkyBox.transform.RotateAround(axis,(rate*0.005f)*Time.deltaTime);
 			
 		}
-		else
-			Debug.LogError(this.name + " has no Main Camera associated with it. The skybox is broken!");		
+		else {
+			//Debug.LogError(this.name + " has no Main Camera associated with it. The skybox is broken!");
+		}
+					
 		
 	}
 	
