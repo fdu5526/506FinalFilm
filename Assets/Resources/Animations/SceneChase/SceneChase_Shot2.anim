@@ -743,3 +743,10 @@ AnimationClip:
     floatParameter: 0
     intParameter: 7
     messageOptions: 0
+  - time: 4.2833333
+    functionName: SetPersonAnimatorState
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 11
+    messageOptions: 0
