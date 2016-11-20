@@ -26,4 +26,7 @@ public class MakePersonDoWhatIWant : MonoBehaviour {
 		m_Anim.SetBool ("IsWalkToIdle", false);
 	}
 
+	void PlayIdleAnimation(){
+		m_Anim.Play ("Mocap-Idle");
+	}
 }
