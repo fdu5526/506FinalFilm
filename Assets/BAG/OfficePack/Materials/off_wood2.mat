@@ -34,10 +34,10 @@ Material:
     m_Colors:
     - first:
         name: _Color
-      second: {r: 1, g: 1, b: 1, a: 1}
+      second: {r: 0.61764705, g: 0.61764705, b: 0.61764705, a: 1}
     - first:
         name: _SpecColor
-      second: {r: 0.8731343, g: 0.8731343, b: 0.8731343, a: 1}
+      second: {r: 0.76903117, g: 0.8167641, b: 0.8235294, a: 1}
 --- !u!1002 &2100001
 EditorExtensionImpl:
   serializedVersion: 6
