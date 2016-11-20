@@ -28,5 +28,15 @@ public class MakePersonDoWhatIWant : MonoBehaviour {
 
 	void PlayIdleAnimation(){
 		m_Anim.Play ("Mocap-Idle");
+
+	}
+
+	void PlaySneakIdle(){
+		m_Anim.Play ("Mocap-SIdle");
+
+	}
+
+	void PlayRun(){
+		m_Anim.Play ("Basic_Run_02");
 	}
 }
