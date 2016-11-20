@@ -9,7 +9,7 @@ public class SceneMCSAnimController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		personController = FindObjectOfType<MCSAnimController>();
-		//GetComponent<Animator> ().speed = 0.9f;
+		GetComponent<Animator> ().speed = 0.9f;
 	}
 
 

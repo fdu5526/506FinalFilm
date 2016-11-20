@@ -9,6 +9,7 @@ public class TimeElapsedCount : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		text = GetComponent<Text>();
+		text.enabled = false;
 	}
 	
 	// Update is called once per frame
